@@ -6,7 +6,7 @@
 
 INCLUDES =-I$(STAGING_DIR)/usr/include/glib-2.0
 INCLUDES+=-I$(STAGING_DIR)/usr/lib64/glib-2.0/include -I.
-INCLUDES+=-I$(STAGING_DIR)/usr/lib/x86_64-linux-gnu/glib-2.0/include
+INCLUDES+=-I$(STAGING_DIR)/usr/lib/aarch64-linux-gnu/glib-2.0/include
 
 SRCS=sm_types.c
 SRCS+=sm_debug.c
